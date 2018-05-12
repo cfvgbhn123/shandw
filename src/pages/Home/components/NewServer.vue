@@ -2,9 +2,9 @@
   <div class="wrapper">
     <div class="title border-bottom">
 
-      <input type="radio" id="old" name="new-server" checked  @click="change">
+      <input type="radio" id="old" name="new-server" checked  @click="changeFalse">
       <label for="old" class="nav1">已新开服</label>
-      <input type="radio" id="new" name="new-server" @click="change">
+      <input type="radio" id="new" name="new-server" @click="changeTrue">
       <label for="new" class="nav2">新服预告</label>
     </div>
 
@@ -112,8 +112,15 @@ export default {
     }
   },
   methods: {
-    change () {
-      this.flag = !this.flag
+    changeFalse () {
+      if (this.flag === false) {
+        this.flag = true
+      }
+    },
+    changeTrue () {
+      if (this.flag === true) {
+        this.flag = false
+      }
     }
   }
 }
