@@ -144,7 +144,7 @@ export default {
         color: #6c7583
         height: .8rem
         line-height: .8rem
-        font-size: .32rem
+        font-size: .28rem
         position: absolute
         left: 50%
         transform: translateX(-100% )
@@ -155,7 +155,7 @@ export default {
         color: #6c7583
         height: .8rem
         line-height: .8rem
-        font-size: .32rem
+        font-size: .28rem
         position: absolute
         right: 50%
         transform: translate(100%)
@@ -194,11 +194,12 @@ export default {
           left: 1.3rem
           .game-name
             line-height: .4rem
-            margin: .3rem 0 .06rem 0
-            font-size: .34rem
+            margin: .18rem .2rem .08rem 0.2rem
+            font-size: .28rem
             ellipsis()
           .game-server
             line-height: .4rem
+            margin: .18rem .2rem .08rem 0.2rem
             color: #fe8731
         .play
           width: 1.14rem
@@ -206,11 +207,10 @@ export default {
           border-radius: .251rem
           line-height: .5rem
           background: linear-gradient(90deg,#22cab5,#3fe28f)
-          font-size: .32rem
+          font-size: .28rem
           color: #ffffff
           text-align center
           position: absolute
-          font-size: .32rem
           right: 0.1rem
           top: 50%;
           transform: translateY(-50%)
@@ -220,7 +220,7 @@ export default {
           color:#6c7583
           transform: translateY(-50%)
           right: 1.4rem
-          font-size: .32rem
+          font-size: .28rem
     .more
       height: 1rem
       width: 1.2rem
@@ -228,7 +228,7 @@ export default {
       line-height: .5rem
       text-align: center
       color: #6c7583
-      font-size: .3rem
+      font-size: .28rem
       position: relative
       .text
         position: absolute

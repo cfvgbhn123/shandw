@@ -178,8 +178,8 @@ export default {
         text-align: center
       .spec
         position:absolute
-        right: 0
-        top: 0
+        right: 0.04rem
+        top: -.02rem
         .tags
           width: .5rem
           height: .6rem

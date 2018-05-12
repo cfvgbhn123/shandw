@@ -173,7 +173,7 @@ export default {
             width: 6rem
             line-height: .4rem
             margin: 0rem
-            font-size: .34rem
+            font-size: .28rem
             .tag
               width: .48rem
               height: .3rem
@@ -213,11 +213,10 @@ export default {
           border-radius: .251rem
           line-height: .5rem
           background: linear-gradient(90deg,#22cab5,#3fe28f)
-          font-size: .32rem
+          font-size: .28rem
           color: #ffffff
           text-align center
           position: absolute
-          font-size: .32rem
           right: 0.1rem
           top: 50%;
           transform: translateY(-50%)
